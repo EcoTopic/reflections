@@ -1,0 +1,8 @@
+#What happens when you initialize a repository? Why do you need to do it?
+A .git dir is made with where metadata about the files in the parent dir can be stored.
+
+$ git init
+
+# to see the status of the .git dir
+$ git status
+

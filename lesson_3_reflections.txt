@@ -23,4 +23,10 @@ git diff
 # diff between staging area and repository (most recent commit)
 git diff --staged
 
+# re-attach a severed head
+git checkout master
+
+#How can you use the staging area to make sure you have one commit per logical change?
+YOu can add changes to the staging area as you are working on the file. Once you come to the stage that you feel you have completed a logical change, you can commit the files in the staging area to a commit and add a message with it.
+
 

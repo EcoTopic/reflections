@@ -29,4 +29,16 @@ git checkout master
 #How can you use the staging area to make sure you have one commit per logical change?
 YOu can add changes to the staging area as you are working on the file. Once you come to the stage that you feel you have completed a logical change, you can commit the files in the staging area to a commit and add a message with it.
 
+#Branching
+#create new branch
+git branck new-branch
+#make new branch the place to save commits to
+git checkout new-branch
+#check current branch
+git branch
+
+#What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to add experimental features that you're not sure off if it will work out. In this case the master still is the working version that you can easily refer back to.
+
+
 

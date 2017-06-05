@@ -12,7 +12,15 @@ $ git add file.txt
 $ git add file2.txt
 
 # to remove a file from staging area
-$ gir reset file.txt
+$ git reset file.txt
 
 # How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area contains the files that you want to track, they form the repository. The value this offers is that the working directory can contain other files that do not have to be part of the repository.
+
+# difference besteen working dir and staging area
+git diff
+
+# diff between staging area and repository (most recent commit)
+git diff --staged
+
+

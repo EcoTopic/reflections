@@ -4,4 +4,7 @@
 # Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
   You might get conflicts while working locally. non-logical commits?
   
-  
+# Describe the differences between forks, clones, and branches. When would you use one instead of another?
+  branch: on a single repo. to try out new feature without breaking the master
+  clone: copy another repo either from github or another location on your own machine to work on separately without the need to get back to orginal
+  fork: copy another repo with reference to the original.  
